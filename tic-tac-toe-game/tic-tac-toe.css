@@ -1,0 +1,207 @@
+body {
+    background-color: black;
+    background-image: url(images/background-arcade.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+h1 {
+    font-family: 'VT323', monospace;
+    color: white;
+    font-size: 80px;
+    text-align: center;
+    margin: -50px;
+}
+
+#game-board {
+  display: block;
+  margin-right: 178px;
+}
+
+#score-board {
+  display: inline-block;
+  float: left;
+  border: 6px #33349e double;
+  width: 160px;
+  padding: 0 10px;
+  border-radius: 10px;
+}
+
+p .score {
+  font-family: 'VT323', monospace;
+  color: white;
+  font-size: 30px;
+  text-align: left;
+}
+
+h3 {
+  font-family: 'VT323', monospace;
+  color: white;
+  font-size: 40px;
+}
+
+p {
+  font-family: 'VT323', monospace;
+  color: white;
+  font-size: 30px;
+  text-align: left;
+}
+
+.blink {
+    color: white;
+    font-size: 50px;
+    text-align: center;
+    padding: -10px;
+    margin-bottom: -40px;
+    -webkit-animation-name: blinker;
+    -webkit-animation-duration: 1s;
+    -webkit-animation-timing-function: linear;
+    -webkit-animation-iteration-count: infinite;
+    -moz-animation-name: blinker;
+    -moz-animation-duration: 1s;
+    -moz-animation-timing-function: linear;
+    -moz-animation-iteration-count: infinite;
+    animation-name: blinker;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+@-moz-keyframes blinker {
+    0% {
+        opacity: 1.0;
+    }
+    50% {
+        opacity: 0.0;
+    }
+    100% {
+        opacity: 1.0;
+    }
+}
+@-webkit-keyframes blinker {
+    0% {
+        opacity: 1.0;
+    }
+    50% {
+        opacity: 0.0;
+    }
+    100% {
+        opacity: 1.0;
+    }
+}
+@keyframes blinker {
+    0% {
+        opacity: 1.0;
+    }
+    50% {
+        opacity: 0.0;
+    }
+    100% {
+        opacity: 1.0;
+    }
+}
+
+#result-text {
+    font-family: 'VT323', monospace;
+    height: 100px;
+    color: white;
+}
+
+img {
+    height: 100%;
+    vertical-align: middle;
+    display: block;
+}
+
+#new-game {
+    background-color: red;
+    border: none;
+    color: white;
+    margin: 5px;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 30px;
+    font-family: 'VT323', monospace;
+}
+
+#game-board {
+    padding: 20px;
+    text-align: center;
+}
+
+#wrapper {
+    display: inline-block;
+    padding: 5px;
+    border: 3px #33349e solid;
+    background-color: black;
+    line-height: 0;
+}
+
+.tile {
+    width: 120px;
+    height: 120px;
+    display: inline-block;
+    border: 5px white dotted;
+
+}
+
+#index-0 {
+    border-top: 3px #33349e solid;
+    border-right: 5px white dotted;
+    border-bottom: 5px white dotted;
+    border-left: 3px #33349e solid;
+}
+
+#index-1 {
+    border-top: 3px #33349e solid;
+    border-right: 5px white dotted;
+    border-bottom: 5px white dotted;
+    border-left: 5px white dotted;
+}
+
+#index-2 {
+    border-top: 3px #33349e solid;
+    border-right: 3px #33349e solid;
+    border-bottom: 5px white dotted;
+    border-left: 5px white dotted;
+}
+
+#index-3 {
+    border-top: 5px white dotted;
+    border-right: 5px white dotted;
+    border-bottom: 5px white dotted;
+    border-left: 3px #33349e solid;
+}
+
+#index-4 {
+    border: 5px white dotted;
+}
+
+#index-5 {
+    border-top: 5px white dotted;
+    border-right: 3px #33349e solid;
+    border-bottom: 5px white dotted;
+    border-left: 5px white dotted;
+}
+
+#index-6 {
+    border-top: 5px white dotted;
+    border-right: 5px white dotted;
+    border-bottom: 3px #33349e solid;
+    border-left: 3px #33349e solid;
+}
+
+#index-7 {
+    border-top: 5px white dotted;
+    border-right: 5px white dotted;
+    border-bottom: 3px #33349e solid;
+    border-left: 5px white dotted;
+}
+
+#index-8 {
+    border-top: 5px white dotted;
+    border-right: 3px #33349e solid;
+    border-bottom: 3px #33349e solid;
+    border-left: 5px white dotted;
+}
