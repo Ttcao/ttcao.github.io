@@ -1,10 +1,3 @@
-Pre-work, Javascript, Tic tac toe, Ruby, Codr
-
-- how you grew an interest in web development
-- pre-work
-- javascript and then tic tac toe
-- ruby and then Codr
-
 # First six weeks of life as a web developer
 
 I have recently completed the first six weeks of my 12 week web development course at General Assembly. I thought it would be a good opportunity for me to reflect on my experiences to date!
@@ -57,6 +50,35 @@ There was a lot of (blood, sweat and) tears but I am very happy with the end res
 
 ![](./tic-tac-toe-game.png)
 
-## Fast forward to Weeks 4 - 6
+## Week 4 (Ruby Fundamentals)
 
-## Week 4
+Finally to back-end development! At this point I was still trying to connect the dots of how web applications work. I had been studying front-end development up til now and I was excited to learn to build a full-stack application. After a couple of days of Ruby, I found that the programming concepts that I previously learned carried over. I also discovered that Ruby is more elegant and simpler than JavaScript. At this point I moved from using `for` loops to Ruby methods such as `map`, `filter` and `reduce` when working with arrays. I found this approach easier to reason with.
+
+One of the warm-ups I enjoyed solving was "Scrabble Score" - which was to write a Ruby program that computes the scrabble score for a given word.
+
+## Week 5 (Ruby Sinatra)
+
+In the fifth week, I learnt how to use Postgres to build databases for a server-side application. I soon discovered the power of the Sinatra framework, which is used to build back-end services in Ruby.
+
+## Week 6 (Codr: Tinder for Developers)
+
+The brief for the second project of the course was to build a full-stack application with Ruby using Sinatra.
+
+I decided to create an application called "Codr" which connects tech companies with developers. Developers sign up and submit their own code snippets. On the other hand, companies sign up and are then able to 'swipe' through the submitted code snippets, which have been anonymised. Developers are able to contact companies that have 'matched' with them. Instead of companies having control over what code they want candidates to submit, Codr gives developers the freedom to showcase their coding skills however they choose. The anonymity eliminates hiring bias.
+
+I have deployed [Codr](https://codr-app.herokuapp.com) online to Heroku. Feel free to sign up and play around with the app.
+
+#### Company sign up
+![](./codr-01.png)
+
+#### Company profile
+![](./codr-02.png)
+
+#### Company view code snippets
+![](./codr-03.png)
+
+#### Developer profile
+![](./codr-04.png)
+
+#### Developer view matches
+![](./codr-05.png)
