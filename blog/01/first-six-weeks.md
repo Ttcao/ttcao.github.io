@@ -68,6 +68,9 @@ I decided to create an application called "Codr" which connects tech companies w
 
 I have deployed [Codr](https://codr-app.herokuapp.com) online to Heroku. Feel free to sign up and play around with the app.
 
+#### Codr Home page
+![](./codr-home.png)
+
 #### Company sign up
 ![](./codr-01.png)
 
