@@ -1,8 +1,10 @@
 #![](https://ga-dash.s3.amazonaws.com/production/assets/logo-9f88ae6c9c3871690e33280fcf557f33.png) Project #4: The WDI Conf website (Brochure Site)
 
+Access the site here: https://ttcao.github.io/WDI_Conf-master/app/
+
 ### Overview
 
-Our main goal was to create the landing page of the WDI Conf experience. This page allows attendees to view details of any of the planned presentations at the conference held at GA Melbourne. Working as a team the WDI-10 class created the official WDI Conf online experience™. 
+Our main goal was to create the landing page of the WDI Conf experience. This page allows attendees to view details of any of the planned presentations at the conference held at GA Melbourne. Working as a team the WDI-10 class created the official WDI Conf online experience™.
 
 ---
 
@@ -26,9 +28,9 @@ Our main goal was to create the landing page of the WDI Conf experience. This pa
 ### Process/Approach Taken
 
 An initial group meeting helped to divide tasks based on experience and preference.  There was a group brainstorm session that led to the creating of a layout.  Below is a breakdown of how tasks were divided.
- 
+
  - James and Tess worked on front end development logic
- - Jaime Front End Design 
+ - Jaime Front End Design
  - Tya and Sergio worked on Bot Logic
  - Thomas worked on README
 
@@ -55,17 +57,17 @@ Ticketing was arranged by the use of the third party event management system Eve
 
 ### Challenges
 
- - Limited time constraints 
+ - Limited time constraints
  - Dynamics of working in a larger team
- - In retrospect we would have used a project management software such as Trello to help with organisation 
+ - In retrospect we would have used a project management software such as Trello to help with organisation
  - The project would have benefited from the use of a project leader/coordinator to help guide logistics
 
 --
 
 ### Future Expansion (Stretch Goals)
  - Fully responsive mobile friendly design
- - Would prefer to change over from the use of Modals to dynamic in page content 
- 
+ - Would prefer to change over from the use of Modals to dynamic in page content
+
 ---
 
 #![](https://ga-dash.s3.amazonaws.com/production/assets/logo-9f88ae6c9c3871690e33280fcf557f33.png)  Teams
