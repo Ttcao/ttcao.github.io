@@ -8,6 +8,9 @@ header {
     padding-top: 100px;
     padding-bottom: 50px;
 }
+h2 {
+  padding-bottom: 2%;
+}
 .banner h1 {
     font-family: 'Roboto', sans-serif;
     text-transform: uppercase;
@@ -24,13 +27,13 @@ header {
     padding: 1%;
 }
 .skills-heading {
-    color: #fed136;
+    color: #ffca0c;
 }
 .btn-xl {
     margin-top: 2%;
     color: white;
-    background-color: #fed136;
-    border-color: #fed136;
+    background-color: #ffca0c;
+    border-color: #ffca0c;
     font-family: 'Roboto', sans-serif;
     letter-spacing: 2px;
     text-transform: uppercase;
@@ -41,8 +44,8 @@ header {
 }
 .btn-xl:hover, .btn-xl:focus, .btn-xl:active, .btn-xl.active, .open .dropdown-toggle.btn-xl {
     color: white;
-    background-color: #fec503;
-    border-color: #f6bf01;
+    background-color: #ffca0c;
+    border-color: #ffca0c;
 }
 .about p {
     color: #1a1a1a;
@@ -72,6 +75,7 @@ section h3.section-subheading {
     font-style: italic;
     font-weight: 400;
     margin-bottom: 75px;
+    color: #5b5b5b;
 }
 @media (max-width: 767px) {
     section {
@@ -79,14 +83,18 @@ section h3.section-subheading {
     }
 }
 a {
-    color: white;
+  color: white;
 }
+
 a:hover {
-    color: #fec503;
+    color: #ffca0c;
     text-decoration: none;
 }
 .link {
     color: grey;
+}
+.project-link {
+    color: #1a1a1a;
 }
 .project-modal .close-modal .lr .rl {
     height: 75px;
@@ -140,25 +148,25 @@ ul.banner-social-buttons {
     border-color: transparent;
 }
 .navbar-custom .navbar-brand {
-    color: #fed136;
+    color: #ffca0c;
     font-family: "Kaushan Script", "Helvetica Neue", Helvetica, Arial, cursive;
 }
 .navbar-custom .navbar-brand:hover, .navbar-custom .navbar-brand:focus, .navbar-custom .navbar-brand:active, .navbar-custom .navbar-brand.active {
-    color: #fec503;
+    color: #ffca0c;
 }
 .navbar-custom .navbar-collapse {
     border-color: rgba(255, 255, 255, 0.02);
 }
 .navbar-custom .navbar-toggle {
-    background-color: #fed136;
-    border-color: #fed136;
+    background-color: #ffca0c;
+    border-color: #ffca0c;
     font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
     text-transform: uppercase;
     color: white;
     font-size: 12px;
 }
 .navbar-custom .navbar-toggle:hover, .navbar-custom .navbar-toggle:focus {
-    background-color: #fed136;
+    background-color: #ffca0c;
 }
 .navbar-custom .nav li a {
     font-family: 'Roboto', sans-serif;
@@ -168,17 +176,17 @@ ul.banner-social-buttons {
     color: white;
 }
 .navbar-custom .nav li a:hover, .navbar-custom .nav li a:focus {
-    color: #fed136;
+    color: #ffca0c;
     outline: none;
 }
 .navbar-custom .navbar-nav>.active>a {
     border-radius: 0;
     color: white;
-    background-color: #fed136;
+    background-color: #ffca0c;
 }
 .navbar-custom .navbar-nav>.active>a:hover, .navbar-custom .navbar-nav>.active>a:focus {
     color: white;
-    background-color: #fec503;
+    background-color: #ffca0c;
 }
 #portfolio .portfolio-item {
     margin: 0 0 15px;
